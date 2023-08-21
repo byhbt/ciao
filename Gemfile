@@ -36,6 +36,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'dockerfile-rails', '>= 1.5'
   gem 'letter_opener'
   gem 'listen', '~> 3.3'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
@@ -72,5 +73,3 @@ gem 'simple_form'
 gem 'tabler-rubygem'
 gem 'yabeda-prometheus'
 gem 'yabeda-rails'
-
-gem "dockerfile-rails", ">= 1.5", :group => :development
