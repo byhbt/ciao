@@ -72,3 +72,5 @@ gem 'simple_form'
 gem 'tabler-rubygem'
 gem 'yabeda-prometheus'
 gem 'yabeda-rails'
+
+gem "dockerfile-rails", ">= 1.5", :group => :development
